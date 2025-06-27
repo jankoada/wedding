@@ -1,0 +1,83 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. */
+
+@layer base {
+  :root {
+    --background: 253 248 246;
+    --foreground: 79 70 67;
+
+    --card: 255 255 255;
+    --card-foreground: 79 70 67;
+
+    --popover: 255 255 255;
+    --popover-foreground: 79 70 67;
+
+    --primary: 224 171 159;
+    --primary-foreground: 79 70 67;
+
+    --secondary: 217 234 211;
+    --secondary-foreground: 79 70 67;
+
+    --muted: 246 245 244;
+    --muted-foreground: 168 162 158;
+
+    --accent: 224 171 159;
+    --accent-foreground: 79 70 67;
+
+    --destructive: 239 68 68;
+    --destructive-foreground: 248 250 252;
+
+    --border: 231 229 228;
+    --input: 231 229 228;
+    --ring: 224 171 159;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .floral-divider {
+    @apply flex items-center justify-center my-8;
+  }
+  
+  .floral-divider::before,
+  .floral-divider::after {
+    content: '';
+    @apply flex-1 h-px bg-gradient-to-r from-transparent via-blush-300 to-transparent;
+  }
+  
+  .floral-divider::before {
+    @apply mr-4;
+  }
+  
+  .floral-divider::after {
+    @apply ml-4;
+  }
+}
