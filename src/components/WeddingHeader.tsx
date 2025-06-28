@@ -31,7 +31,7 @@ const WeddingHeader = () => {
           {/*<p className="font-serif text-xl md:text-2xl mb-2 tracking-wide">*/}
           {/*  S radostí a láskou vás zveme*/}
           {/*</p>*/}
-          <p className="font-serif text-lg md:text-xl tracking-widest">
+          <p className="font-serif text-2xl md:text-3xl tracking-widest">
             26. 7. 2025
           </p>
         </div>

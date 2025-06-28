@@ -1,12 +1,19 @@
 
-import { Heart } from 'lucide-react';
+import {Calendar, Heart} from 'lucide-react';
+import { Gift } from 'lucide-react';
 
 const Registry = () => {
   return (
     <section className="py-16 animate-fade-in">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="font-serif text-3xl md:text-4xl text-gray-800 mb-6">
-          Dary 🎁
+          <div className="flex items-center justify-center space-x-2">
+            <Gift className="w-8 h-8 text-blush-500 flex-shrink-0" />
+            <span>Dary</span>
+          </div>
+          {/*Dary*/}
+          {/*<Gift className="w-6 h-6 text-blush-500 mt-1 flex-shrink-0" />*/}
+          {/*Dary 🎁*/}
           {/*Dary*/}
         </h2>
         <p className="text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
