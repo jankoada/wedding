@@ -1,7 +1,7 @@
 
 const InvitationText = () => {
   return (
-    <section className="text-center py-16 animate-fade-in max-w-4xl mx-auto px-4 space-y-16">
+    <section className="text-center py-16 animate-fade-in max-w-4xl mx-auto">
       <div className="max-w-4xl mx-auto">
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <p className="font-serif text-lg md:text-xl max-w-4xl">

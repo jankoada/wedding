@@ -23,8 +23,8 @@ const Index = () => {
         <WeddingHeader />
         <FloralDivider />
         
-        {/*<div className="max-w-4xl mx-auto px-4 space-y-16">*/}
-        <div >
+        <div className="px-4 space-y-16">
+        {/*<div >*/}
           <InvitationText />
           <FloralDivider />
           
