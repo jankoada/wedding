@@ -1,11 +1,12 @@
 
 const InvitationText = () => {
   return (
-    <section className="text-center py-16 animate-fade-in">
-      <div className="max-w-3xl mx-auto">
+    <section className="text-center py-16 animate-fade-in max-w-4xl mx-auto px-4 space-y-16">
+      <div className="max-w-4xl mx-auto">
         <div className="space-y-6 text-gray-700 leading-relaxed">
-          <p className="font-serif text-lg md:text-xl">
-            S radostí a láskou vás zveme, abyste se s námi podělili o jeden z nejkrásnějších okamžiků našeho života.
+          <p className="font-serif text-lg md:text-xl max-w-4xl">
+            {/*S radostí a láskou vás zveme, abyste se s námi podělili o jeden z nejkrásnějších okamžiků našeho života.*/}
+            S velkou radostí vás zveme, abyste s námi prožili jeden z nejhezčích dní v našem životě.
           </p>
           <div className="y-6">
             <p className="font-serif text-xl md:text-2xl text-gray-800 mb-2">

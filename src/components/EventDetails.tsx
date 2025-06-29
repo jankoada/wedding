@@ -3,7 +3,7 @@ import { Calendar, Clock, MapPin, Car } from 'lucide-react';
 
 const EventDetails = () => {
   return (
-    <section className="py-16 animate-fade-in">
+    <section className="py-16 animate-fade-in max-w-4xl mx-auto px-4 space-y-16">
       <div className="max-w-3xl mx-auto">
         <h2 className="font-serif text-3xl md:text-4xl text-center text-gray-800 mb-12">
           {/*Místo a Čas ⏰*/}

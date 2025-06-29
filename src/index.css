@@ -83,3 +83,26 @@
     @apply ml-4;
   }
 }
+
+
+/* Print styles for A4 format */
+@media print {
+  @page {
+    size: A4;
+    margin: 1cm;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  .print\:p-6 {
+    padding: 1.5rem;
+  }
+}
+

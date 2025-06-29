@@ -16,7 +16,7 @@ const Registry = () => {
           {/*Dary 🎁*/}
           {/*Dary*/}
         </h2>
-        <p className="text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+        <p className="font-serif text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
           Je pro nás darem už jen to, že to s vámi můžeme oslavit. A pokud byste nám chtěli přispět na konání svatby, můžete využít QR kód níže a případně nám zanechat milý vzkaz.
         </p>
         <p className="text-gray-600 mb-8 font-medium">
