@@ -24,7 +24,7 @@ const Registry = () => {
           <div className="bg-white rounded-lg shadow-md p-8 max-w-sm">
             <div className="w-48 h-48 mx-auto mb-4 bg-gray-100 rounded-lg flex items-center justify-center">
               <img 
-                src="/assets/qr_code.png"
+                src="/assets/qr_code.jpeg"
                 alt="QR kód pro příspěvky na svatbu" 
                 className="w-full h-full object-cover rounded-lg"
               />
