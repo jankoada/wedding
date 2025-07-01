@@ -7,7 +7,7 @@ const Schedule = () => {
       // title: "Dress Code 👗",
       title: "Dress Code",
       icon: <Shirt className="w-6 h-6" />,
-      content: "Oblékněte se tak, abyste se cítili krásně a pohodlně. Bude horko, takže pánové nemusí mít sako – košile, případně s motýlkem, bohatě postačí. Neberte si prosím bílé šaty ani světle béžový oblek.",
+      content: "Oblékněte se tak, abyste se cítili krásně a pohodlně. Bude horko, takže pánové nemusí mít sako – košile, případně s motýlkem, bohatě postačí. Neberte si prosím bílé šaty ani světle béžový oblek. Pokud byste se chtěli sladit barevně, doporučujeme následující odstíny, ale není to povinné.",
       showColors: true
     },
     // {

@@ -9,15 +9,12 @@ const Registry = () => {
         <h2 className="font-serif text-3xl md:text-4xl text-gray-800 mb-6">
           <div className="flex items-center justify-center space-x-2">
             <Gift className="w-8 h-8 text-blush-500 flex-shrink-0" />
-            <span>Dary</span>
+            <span>Svatební dar</span>
           </div>
-          {/*Dary*/}
-          {/*<Gift className="w-6 h-6 text-blush-500 mt-1 flex-shrink-0" />*/}
-          {/*Dary 🎁*/}
-          {/*Dary*/}
         </h2>
         <p className="font-serif text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Je pro nás darem už jen to, že to s vámi můžeme oslavit. A pokud byste nám chtěli přispět na konání svatby, můžete využít QR kód níže a případně nám zanechat milý vzkaz.
+          To, že s námi přijdete slavit, je už tak nejlepší dárek!️ Ale kdyby vás náhodou napadlo, že kromě tanečních pohybů chcete přinést i nějaký dar… máme malou prosbu: radši než další sadu hrnců nebo třetí mixér budeme vděční za příspěvek do společného života.
+          Pokud byste nás chtěli takto obdarovat, můžete využít QR kód níže a nezapomeňte nám zanechat vzkaz!
         </p>
         <p className="text-gray-600 mb-8 font-medium">
           {/*Děkujeme ze srdce!*/}
