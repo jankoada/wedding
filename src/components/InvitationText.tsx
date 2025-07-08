@@ -18,7 +18,7 @@ const InvitationText = () => {
           </div>
           <div className="y-6 font-serif text-lg md:text-xl">
             <p >
-              Dne 26. 7. 2025 započneme naši společnou cestu manželstvím
+              Dne 26. 7. 2025 započneme společnou cestu manželstvím
               {/*Dne 26. 7. 2025 si řekneme své „ano“*/}
             </p>
             <p>
