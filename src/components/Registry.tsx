@@ -13,8 +13,8 @@ const Registry = () => {
           </div>
         </h2>
         <p className="font-serif text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-          To, že s námi přijdete slavit, je už tak nejlepší dárek!️ Ale kdyby vás náhodou napadlo, že kromě tanečních pohybů chcete přinést i nějaký dar… máme malou prosbu: radši než další sadu hrnců nebo třetí mixér budeme vděční za příspěvek do společného života.
-          Pokud byste nás chtěli takto obdarovat, můžete využít QR kód níže a nezapomeňte nám zanechat vzkaz!
+          To, že s námi přijdete slavit, je pro nás ten nejlepší dárek!️ Kdybyste však kromě svých tanečních pohybů a Vaší přítomnosti chtěli přinést i něco navíc… máme malou prosbu: radši než za další sadu hrnců nebo třetí mixér budeme vděční za příspěvek do našeho společného života.
+          Pokud byste nás chtěli takto obdarovat, můžete využít QR kód níže a potěší nás, když zanecháte i vzkaz!
         </p>
         <p className="text-gray-600 mb-8 font-medium">
           {/*Děkujeme ze srdce!*/}

@@ -7,7 +7,8 @@ const Schedule = () => {
       // title: "Dress Code 👗",
       title: "Dress Code",
       icon: <Shirt className="w-6 h-6" />,
-      content: "Oblékněte se tak, abyste se cítili krásně a pohodlně. Bude horko, takže pánové nemusí mít sako – košile, případně s motýlkem, bohatě postačí. Neberte si prosím bílé šaty ani světle béžový oblek. Pokud byste se chtěli sladit barevně, doporučujeme následující odstíny, ale není to povinné.",
+      // content: "Oblékněte se tak, abyste se cítili krásně a pohodlně. Oblékněte, v čem se cítíte nejlépe. Doufáme, že bude horko, není proto potřeba sako – košile, případně s motýlkem, bohatě postačí. Barevné kombinace jsou neomezené, pouze prosíme, nevolte bílé šaty ani světle béžový oblek.",
+      content: "Důležité pro nás je, abyste se cítili krásně a pohodlně. Oblékněte, v čem se cítíte nejlépe. Doufáme, že bude horko, není proto potřeba sako – košile, případně s motýlkem, bohatě postačí. Barevné kombinace jsou neomezené, pouze prosíme, nevolte bílé šaty ani světle béžový oblek.",
       showColors: true
     },
     // {
@@ -20,12 +21,13 @@ const Schedule = () => {
       // title: "Bazén i sauna 🏊",
       title: "Doprava",
       icon: <Car className="w-6 h-6" />,
-      content: "Pokud přijedete autem, parkujte prosím podél zdí statku, případně na krajnici, abychom neomezovali místní."
+      content: "Pokud přijedete autem, parkujte prosím podél zdí statku, případně na krajnici, abychom neomezovali místní.",
+      showParkingLink: true
     },
     {
       title: "Ubytování",
       icon: <Bed className="w-6 h-6" />,
-      content: "Ubytování je kvůli omezené kapacitě primárně domluveno pro hosty z Prahy a zahraničí. Pro přespolní držáky z Volyně a Strakonic, kteří plánují zůstat přes noc, je k dispozici ještě společná místnost s lůžky pro 14 lidí."
+      content: "Ubytování je kvůli omezené kapacitě primárně zajištěno pro hosty z Prahy a zahraničí. Pro místní držáky z Volyně a Strakonic, kteří budou potřebovat zůstat přes noc, je k dispozici ještě společná místnost s lůžky pro 14 lidí."
     },
     // <h3 className="font-serif text-xl text-gray-800 mb-2">Doprava</h3>
     // <p className="text-gray-600">
@@ -35,21 +37,20 @@ const Schedule = () => {
       // title: "Catering 🍔",
       title: "Catering",
       icon: <Utensils className="w-6 h-6" />,
-      content: "O celodenní jídlo se postará food truck Dog'n'Roll. Hned po příchodu vás čeká welcome drink a malé občerstvení. Po obřadu se otevře raut a začne výdej oběda z food trucku. Večerní speciality pak budou přímo z trucku od 18 do 22 hodin. " +
-          "Nebude žádný pevně daný čas na oběd ani zasedací pořádek, takže si klidně najděte místo, kde vám bude příjemně. Kromě sálu je k dispozici spousta míst k sezení na terasách nebo v sadu.",
+      content: "Celodenní catering zajistí Food truck Dog'n'Roll. Hned po příchodu na Vás bude čekat welcome drink a malé občerstvení. Po obřadu se otevře raut, který bude k dispozici po celý den. Obědové a večerní speciality pak budou vydávány přímo z Food trucku. Na statku nenajdete zasedací pořádek. Kromě sálu bude k dispozici sezení na terasách, v zahradě nebo v sadu.",
       showMenuLink: true
     },
     {
       // title: "Kafe ☕",
       title: "Kafe",
       icon: <Coffee className="w-6 h-6" />,
-      content: "Baristka z Hope Roastery vám kromě vynikajícího espressa udělá klidně i filtr nebo flat-white."
+      content: "Baristka Eliška z pražírny Hope Roastery Vám připraví kávu podle Vaší chuti: espresso, batch nebo i flat white."
     },
     {
       // title: "Bar 🍷",
       title: "Bar",
       icon: <Wine className="w-6 h-6" />,
-      content: "S Lukášem z L'Fleur baru jsme připravili menu s jeho signature drinky, se kterými mu pomůžou kluci ze strakonického Moonu."
+      content: "S Lukášem z L'Fleur baru jsme připravili speciální menu s jeho signature drinky. Na baru Vás kromě Lukáše přivítají i kluci ze strakonického Moonu."
     }
   ];
 
@@ -83,18 +84,18 @@ const Schedule = () => {
                 </div>
 
               </div>
-              {section.showColors && (
-                  <div className="flex space-x-3 mt-4 justify-center">
-                    {dressColors.map((colorItem, colorIndex) => (
-                        <div
-                            key={colorIndex}
-                            className="w-8 h-8 rounded-full border-2 border-white shadow-sm"
-                            style={{ backgroundColor: colorItem.color }}
-                            title={colorItem.name}
-                        />
-                    ))}
-                  </div>
-              )}
+              {/*{section.showColors && (*/}
+              {/*    <div className="flex space-x-3 mt-4 justify-center">*/}
+              {/*      {dressColors.map((colorItem, colorIndex) => (*/}
+              {/*          <div*/}
+              {/*              key={colorIndex}*/}
+              {/*              className="w-8 h-8 rounded-full border-2 border-white shadow-sm"*/}
+              {/*              style={{ backgroundColor: colorItem.color }}*/}
+              {/*              title={colorItem.name}*/}
+              {/*          />*/}
+              {/*      ))}*/}
+              {/*    </div>*/}
+              {/*)}*/}
               {section.showMenuLink && (
                   <div className="flex space-x-3 mt-4 justify-center">
                     <a href="/menu" target="_blank" rel="noopener noreferrer" className="text-blush-600 hover:underline">
@@ -102,6 +103,17 @@ const Schedule = () => {
                     </a>
                   </div>
               )}
+              {/*{section.showParkingLink && (*/}
+              {/*    <div className="flex space-x-3 mt-4 justify-center">*/}
+              {/*      <a*/}
+              {/*          // href="/parking"*/}
+              {/*          disabled="disabled" target="_blank" rel="noopener noreferrer" className="text-gray-600*/}
+              {/*          ">*/}
+              {/*          /!*hover:underline*!/*/}
+              {/*        Mapa bude připravena později*/}
+              {/*      </a>*/}
+              {/*    </div>*/}
+              {/*)}*/}
             </div>
           ))}
         </div>

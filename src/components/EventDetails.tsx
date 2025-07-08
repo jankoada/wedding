@@ -25,7 +25,7 @@ const EventDetails = () => {
               <Clock className="w-6 h-6 text-blush-500 mt-1 flex-shrink-0" />
               <div>
                 <h3 className="font-serif text-xl text-gray-800 mb-2">Čas</h3>
-                <p className="font-serif text-gray-600">Přijíždět můžete od 11:00</p>
+                <p className="font-serif text-gray-600">Brána statku se otevře v 11:00</p>
                 <p className="font-serif text-gray-600">Obřad začíná ve 12:30</p>
               </div>
             </div>
