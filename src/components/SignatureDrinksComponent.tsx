@@ -63,7 +63,7 @@ const SignatureDrinksComponent = () => {
                                 {/*    {drink.summary}*/}
                                 {/*</h3>*/}
 
-                                <p className="text-sm text-muted-foreground leading-relaxed font-sans tracking-wide uppercase text-gray-900">
+                                <p className="text-sm font-sans tracking-wide uppercase text-gray-900">
                                     {drink.description}
                                 </p>
                             </div>
