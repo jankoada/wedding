@@ -1,7 +1,7 @@
-import WeddingMenu from "@/components/WeddingMenu";
+import CateringMenu from "@/components/CateringMenu.tsx";
 
 const Menu = () => {
-    return <WeddingMenu />;
+    return <CateringMenu />;
 };
 
 export default Menu;

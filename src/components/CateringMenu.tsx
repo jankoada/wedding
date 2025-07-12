@@ -1,6 +1,6 @@
 import FloralDivider from "@/components/FloralDivider.tsx";
 
-const WeddingMenu = () => {
+const CateringMenu = () => {
     return (
         <div className="min-h-screen bg-white p-8 print:p-6">
             <div className="max-w-4xl mx-auto">
@@ -182,4 +182,4 @@ const WeddingMenu = () => {
     );
 };
 
-export default WeddingMenu;
+export default CateringMenu;

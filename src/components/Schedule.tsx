@@ -38,19 +38,21 @@ const Schedule = () => {
       title: "Catering",
       icon: <Utensils className="w-6 h-6" />,
       content: "Celodenní catering zajistí Food truck Dog'n'Roll. Hned po příchodu na Vás bude čekat welcome drink a malé občerstvení. Po obřadu se otevře raut, který bude k dispozici po celý den. Obědové a večerní speciality pak budou vydávány přímo z Food trucku. Na statku nenajdete zasedací pořádek. Kromě sálu bude k dispozici sezení na terasách, v zahradě nebo v sadu.",
-      showMenuLink: true
+      showCateringMenuLink: true
     },
     {
       // title: "Kafe ☕",
       title: "Kafe",
       icon: <Coffee className="w-6 h-6" />,
-      content: "Baristka Eliška z pražírny Hope Roastery Vám připraví kávu podle Vaší chuti: espresso, batch nebo i flat white."
+      content: "Baristka Eliška z pražírny Hope Roastery Vám připraví kávu podle Vaší chuti: espresso, batch nebo i flat white.",
+      showCoffeeMenuLink: true
     },
     {
       // title: "Bar 🍷",
       title: "Bar",
       icon: <Wine className="w-6 h-6" />,
-      content: "S Lukášem z L'Fleur baru jsme připravili speciální menu s jeho signature drinky. Na baru Vás kromě Lukáše přivítají i kluci ze strakonického Moonu."
+      content: "S Lukášem z L'Fleur baru jsme připravili speciální menu s jeho signature drinky. Na baru Vás kromě Lukáše přivítají i kluci ze strakonického Moonu.",
+      showDrinksMenuLink: true
     }
   ];
 
@@ -96,10 +98,27 @@ const Schedule = () => {
               {/*      ))}*/}
               {/*    </div>*/}
               {/*)}*/}
-              {section.showMenuLink && (
+              {section.showCateringMenuLink && (
                   <div className="flex space-x-3 mt-4 justify-center">
                     <a href="/menu" target="_blank" rel="noopener noreferrer" className="text-blush-600 hover:underline">
-                      Zobrazit menu
+                      Catering menu
+                    </a>
+                  </div>
+              )}
+              {section.showDrinksMenuLink && (
+                  <div className="flex space-x-3 mt-4 justify-center">
+                    <a href="/signature-drinks" target="_blank" rel="noopener noreferrer" className="text-blush-600 hover:underline">
+                      Signature drinky
+                    </a>
+                    <a href="/beverage-menu" target="_blank" rel="noopener noreferrer" className="text-blush-600 hover:underline">
+                      Ostatní nápoje
+                    </a>
+                  </div>
+              )}
+              {section.showCoffeeMenuLink && (
+                  <div className="flex space-x-3 mt-4 justify-center">
+                    <a href="/coffee-menu" target="_blank" rel="noopener noreferrer" className="text-blush-600 hover:underline">
+                      Kávové menu
                     </a>
                   </div>
               )}
