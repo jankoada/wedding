@@ -22,20 +22,19 @@ const CoffeeMenuComponent = () => {
                             <Flower2 className="w-5 h-5 text-blush-400 mx-3" />
                             <div className="w-12 h-px bg-gradient-to-r from-transparent via-blush-300 to-transparent"></div>
                         </div>
-                        <h2 className="font-script text-3xl text-blush-600 mb-2">
-                            Teplé nápoje
+                        <h2 className="font-script text-4xl text-blush-600 mb-2">
+                            Espresso
                         </h2>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto">
                         {[
                             'Espresso',
-                            'Double Espresso',
-                            'Americano',
-                            'Macchiato (Cortado)',
                             'Cappuccino',
+                            'Cortado',
                             'Caffè Latte',
-                            'Babyccino'
+                            'Flat white',
+                            'Americano',
                         ].map((drink, index) => (
                             <div key={drink} className={`bg-white/60 backdrop-blur-sm rounded-lg p-4 ${index % 2 === 0 ? 'border-blush-200/30' : 'border-sage-200/30'}`}>
                                 <h3 className="font-sans font-medium text-foreground text-center text-gray-900">{drink}</h3>
@@ -52,8 +51,8 @@ const CoffeeMenuComponent = () => {
                             <Flower2 className="w-5 h-5 text-sage-400 mx-3" />
                             <div className="w-12 h-px bg-gradient-to-r from-transparent via-sage-300 to-transparent"></div>
                         </div>
-                        <h2 className="font-script text-3xl text-sage-600 mb-2">
-                            Filtrované nápoje
+                        <h2 className="font-script text-4xl text-sage-600 mb-2">
+                            Filtr
                         </h2>
                     </div>
 
@@ -74,8 +73,8 @@ const CoffeeMenuComponent = () => {
                             <Flower2 className="w-5 h-5 text-blush-400 mx-3" />
                             <div className="w-12 h-px bg-gradient-to-r from-transparent via-blush-300 to-transparent"></div>
                         </div>
-                        <h2 className="font-script text-3xl text-blush-600 mb-2">
-                            Studené nápoje
+                        <h2 className="font-script text-4xl text-blush-600 mb-2">
+                            Speciality
                         </h2>
                     </div>
 

@@ -110,8 +110,11 @@ const Schedule = () => {
                     <a href="/signature-drinks" target="_blank" rel="noopener noreferrer" className="text-blush-600 hover:underline">
                       Signature drinky
                     </a>
+                    <a href="/wine-menu" target="_blank" rel="noopener noreferrer" className="text-blush-600 hover:underline">
+                      Víno
+                    </a>
                     <a href="/beverage-menu" target="_blank" rel="noopener noreferrer" className="text-blush-600 hover:underline">
-                      Ostatní nápoje
+                      Ostatní
                     </a>
                   </div>
               )}

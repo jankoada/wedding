@@ -9,6 +9,7 @@ import Menu from "@/pages/Menu.tsx";
 import CoffeeMenu from "@/pages/CoffeeMenu.tsx";
 import SignatureDrinks from "@/pages/SignatureDrinks.tsx";
 import BeverageMenu from "@/pages/BeverageMenu.tsx";
+import WineList from "@/pages/WineList.tsx";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/coffee-menu" element={<CoffeeMenu />} />
           <Route path="/signature-drinks" element={<SignatureDrinks />} />
           <Route path="/beverage-menu" element={<BeverageMenu />} />
+          <Route path="/wine-menu" element={<WineList />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

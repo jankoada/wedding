@@ -19,7 +19,7 @@ const SignatureDrinksComponent = () => {
         {
             title: 'No. 3 - Bitter',
             summary: 'hořký - uzená sůl - svěží',
-            description: 'Malfy Rosa gin · Pampelle (francouzský hořký likér) · klarifikovaný grepový džus · soda · maldonská sůl · grapefruit',
+            description: 'Malfy Rosa gin · Pampelle (francouzský hořký likér) · vyčištěný grepový džus · soda · maldonská sůl · grapefruit',
             color: 'sage'
         },
         {
