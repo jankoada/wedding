@@ -10,6 +10,7 @@ import CoffeeMenu from "@/pages/CoffeeMenu.tsx";
 import SignatureDrinks from "@/pages/SignatureDrinks.tsx";
 import BeverageMenu from "@/pages/BeverageMenu.tsx";
 import WineList from "@/pages/WineList.tsx";
+import Memories from "@/pages/Memories.tsx";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/vzpominky" element={<Memories />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/coffee-menu" element={<CoffeeMenu />} />
           <Route path="/signature-drinks" element={<SignatureDrinks />} />
